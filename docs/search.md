@@ -49,7 +49,7 @@ Shows the searched text as an item when there's nothing to show.
 addCustomItem={true}
 ```
 
-## Placeholder
+## Placeholder Text
 Changes the placeholder text of the text input. Both of the following properties are available.
 
 ### `searchPlaceholder`
