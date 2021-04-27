@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{86:function(a){a.exports=JSON.parse('{"allTagsPath":"/react-native-dropdown-picker-website/blog/tags","slug":"docusaurus","name":"docusaurus","count":5,"permalink":"/react-native-dropdown-picker-website/blog/tags/docusaurus"}')}}]);
