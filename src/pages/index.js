@@ -61,10 +61,9 @@ export default function Home() {
 
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <div className={styles.hero}>
-        <header>
+        <header className={styles.header}>
           <h1>{siteConfig.title}</h1>
           <p>{siteConfig.tagline}</p>
           <div className={styles.buttons}>

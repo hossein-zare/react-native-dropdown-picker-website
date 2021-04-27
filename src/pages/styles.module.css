@@ -30,7 +30,21 @@
   width: 100%;
   align-items: center;
   place-content: center;
-  padding-top: 50px;
+}
+
+.header {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  place-content: center;
+}
+
+.header > h1 {
+  color: #fff;
 }
 
 .section {
