@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    "The Basics": ['installation', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    "The Basics": ['installation', 'rules', 'basic-usage'],
+    Advanced: ['placeholder', 'search', 'category'],
   },
 };

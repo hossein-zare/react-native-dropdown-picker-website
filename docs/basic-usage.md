@@ -4,6 +4,7 @@ title: Basic Usage
 ---
 
 ## Single item
+In the following example you can select only one item.
 
 ```jsx
 import DropDownPicker from 'react-native-dropdown-picker';
@@ -30,6 +31,7 @@ function App() {
 ```
 
 ## Multiple items
+In the following example you can select multiple items.
 
 ```jsx
 const [value, setValue] = useState([]);
