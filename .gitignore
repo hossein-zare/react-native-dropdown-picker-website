@@ -2,4 +2,3 @@ node_modules
 docusaurus.config.js
 package-lock.json
 .docusaurus
-.docusaurus/
