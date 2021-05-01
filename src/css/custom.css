@@ -1,0 +1,59 @@
+.navbar {
+    background-color: rgb(41, 45, 62) !important;
+}
+
+.navbar a {
+    color: white;
+}
+
+html[data-theme="light"] .navbar.navbar-sidebar--show a {
+    color: black;
+}
+
+.navbar__brand:hover {
+    color: #00e7ff;
+}
+
+.navbar svg[aria-label="Menu"] > path {
+    stroke: white !important;
+}
+
+.navbar .dropdown__menu a {
+    color: black;
+}
+
+.react-toggle {
+    margin-right: 15px;
+}
+
+table {
+    display: table;
+    text-align: left;
+}
+  
+.donate-bitcoin-link {
+    color: black !important;
+    text-decoration: none;
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.doc-page .menu > .menu__list > li:last-child a {
+    color: black !important;
+    text-decoration: none;
+    background-color: wheat;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.donate-bitcoin-link img, .menu > .menu__list > li:last-child a img {
+    margin-right: 10px
+}

@@ -10,28 +10,28 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Customizable',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/customizable.svg',
     description: (
       <>
-        Most of the components and styles used in the package are customizable.
+        Fully customizable components.
       </>
     ),
   },
   {
-    title: 'All in One',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Themes',
+    imageUrl: 'img/theme.svg',
     description: (
       <>
-        There are several modes and implementations that bring you the best experiences.
+        <b>LIGHT</b> and <b>DARK</b> themes.
       </>
     ),
   },
   {
     title: 'Localizable',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/localizable.svg',
     description: (
       <>
-        You can localize the component locally or globally.
+        Localization and RTL Support.
       </>
     ),
   },
@@ -40,7 +40,7 @@ const features = [
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames('col col--4 text-center', styles.feature)}>
+    <div className={classnames('col col--4 text--center', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -61,6 +61,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <div className={styles.hero}>
         <header className={styles.header}>
+          <img src={siteConfig.themeConfig.navbar.logo.src} className={styles.logo} />
           <h1>{siteConfig.title}</h1>
           <p className={styles.tagLine}>{siteConfig.tagline}</p>
           <div className={styles.buttons}>

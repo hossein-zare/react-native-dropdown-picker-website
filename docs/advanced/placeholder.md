@@ -4,7 +4,7 @@ title: Placeholder
 ---
 
 When no item is selected, the placeholder is displayed and prompts the user to select an item.  
-The value for single item pickers is `null` and for multiple item picker it's `[]`.
+The value for single item pickers is `null` and for multiple item pickers it's `[]`.
 
 ```jsx
 const [value, setValue] = useState(null); // Single
@@ -27,17 +27,16 @@ placeholder="Select an item"
 ### `translation`
 ```jsx
 translation={{
-    PLACEHOLDER: "Select an item"
+  PLACEHOLDER: "Select an item"
 }}
 ```
++ **See: [Localization](localization)**
 
 ## Styling
-You can style the placeholder text.
-
 ### `placeholderStyle`
 ```jsx
 placeholderStyle={{
-    color: "grey",
-    fontWeight: "bold"
+  color: "grey",
+  fontWeight: "bold"
 }}
 ```

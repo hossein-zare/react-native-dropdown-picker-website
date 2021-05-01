@@ -1,0 +1,97 @@
+{
+  "version-5.0.0/someSidebar": [
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "The Basics",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5.0.0/installation"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.0.0/rules"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.0.0/usage"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.0.0/item-schema"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Advanced",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5.0.0/advanced/placeholder"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.0.0/advanced/icons"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.0.0/advanced/loading"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.0.0/advanced/search"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.0.0/advanced/category"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.0.0/advanced/modes"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.0.0/advanced/dropdown-box"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.0.0/advanced/list-and-items"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.0.0/advanced/list-modes"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.0.0/advanced/localization"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.0.0/advanced/themes"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Tutorials",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5.0.0/tutorials/close-other-pickers"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.0.0/tutorials/multiple-pickers"
+        }
+      ]
+    },
+    {
+      "type": "doc",
+      "id": "version-5.0.0/donation"
+    }
+  ]
+}
