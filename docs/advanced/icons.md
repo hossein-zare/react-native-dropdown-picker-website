@@ -10,7 +10,7 @@ Each item can have an icon.
 {
   label: 'Item',
   value: 'item',
-  icon: () => <Image source={require('./assets/icon.png')} style={styles.iconStyle}>
+  icon: () => <Image source={require('./assets/icon.png')} style={styles.iconStyle} />
 }
 ```
 
