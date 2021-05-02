@@ -217,6 +217,9 @@ Callback that is called as soon as the user presses the picker.
 ```jsx
 onPress={(open) => console.log('was the picker open?', open)}
 ```
+| Type     |
+| -------- |
+| (open: boolean) => void |
 
 ### `onOpen`
 Callback that is called when the user opens the picker.
@@ -224,6 +227,9 @@ Callback that is called when the user opens the picker.
 ```jsx
 onOpen={() => console.log('hi!')}
 ```
+| Type     |
+| -------- |
+| () => void |
 
 ### `onClose`
 Callback that is called when the user closes the picker.
@@ -231,6 +237,9 @@ Callback that is called when the user closes the picker.
 ```jsx
 onClose={() => console.log('bye!')}
 ```
+| Type     |
+| -------- |
+| () => void |
 
 ## Styling
 ### `style`
