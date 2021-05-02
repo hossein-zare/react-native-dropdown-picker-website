@@ -54,7 +54,7 @@ items={items}
 ```
 | Type     | Required |
 | -------- | -------- |
-| object   | **true** |
+| [ItemType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[]   | **true** |
 
 ### **`value`**
 State variable that specifies the value of the selected item. It's an array of values for multiple item pickers.
@@ -64,7 +64,7 @@ value={value}
 ```
 | Type     | Required |
 | -------- | -------- |
-| string, number, object   | **true** |
+| [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts) \| [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[]   | **true** |
 
 ### **`open`**
 State variable that specifies whether the picker is open.
@@ -74,7 +74,7 @@ open={open}
 ```
 | Type     | Required |
 | -------- | -------- |
-| bool     | **true** |
+| boolean     | **true** |
 
 ### `containerProps`
 Adds native props for the container.
@@ -134,7 +134,7 @@ disabled={true}
 ```
 | Type     | Default  |
 | -------- | -------- |
-| bool     | false    |
+| boolean     | false    |
 
 ### `maxHeight`
 Max height of the drop-down box.
@@ -154,7 +154,7 @@ disableBorderRadius={true}
 ```
 | Type     | Default  |
 | -------- | -------- |
-| bool     | false    |
+| boolean     | false    |
 
 ### `zIndex`
 Specifies the stack order.
@@ -189,7 +189,7 @@ setOpen={setOpen}
 ```
 | Type     | Required |
 | -------- | -------- |
-| function | **true** |
+| (open: boolean) => void | **true** |
 
 ### **`setItems`**
 State callback that is called to modify or add new items.
@@ -199,7 +199,7 @@ setItems={setItems}
 ```
 | Type     | Required |
 | -------- | -------- |
-| function | **true** |
+| (items: [ItemType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[]) => void | **true** |
 
 ### **`setValue`**
 State callback that is called when the `value` changes.
@@ -207,6 +207,9 @@ State callback that is called when the `value` changes.
 ```jsx
 setValue={setValue}
 ```
+| Type     | Required |
+| -------- | -------- |
+| (values: [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts) \| [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[]) => void | **true** |
 
 ### `onPress`
 Callback that is called as soon as the user presses the picker.
@@ -214,6 +217,9 @@ Callback that is called as soon as the user presses the picker.
 ```jsx
 onPress={(open) => console.log('was the picker open?', open)}
 ```
+| Type     |
+| -------- |
+| (open: boolean) => void |
 
 ### `onOpen`
 Callback that is called when the user opens the picker.
@@ -221,6 +227,9 @@ Callback that is called when the user opens the picker.
 ```jsx
 onOpen={() => console.log('hi!')}
 ```
+| Type     |
+| -------- |
+| () => void |
 
 ### `onClose`
 Callback that is called when the user closes the picker.
@@ -228,6 +237,9 @@ Callback that is called when the user closes the picker.
 ```jsx
 onClose={() => console.log('bye!')}
 ```
+| Type     |
+| -------- |
+| () => void |
 
 ## Styling
 ### `style`
