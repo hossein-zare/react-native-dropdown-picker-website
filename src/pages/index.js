@@ -13,7 +13,7 @@ const features = [
     imageUrl: 'img/customizable.svg',
     description: (
       <>
-        Fully customizable components.
+        Fully customizable components
       </>
     ),
   },
@@ -22,7 +22,7 @@ const features = [
     imageUrl: 'img/theme.svg',
     description: (
       <>
-        <b>LIGHT</b> and <b>DARK</b> themes.
+        <b>LIGHT</b> and <b>DARK</b> themes
       </>
     ),
   },
@@ -31,7 +31,7 @@ const features = [
     imageUrl: 'img/localizable.svg',
     description: (
       <>
-        Localization and RTL Support.
+        Localization and RTL Support
       </>
     ),
   },
@@ -58,9 +58,9 @@ export default function Home() {
 
   return (
     <Layout
-      description="Description will go into a meta tag in <head />">
+      description="React Native Dropdown Picker is a single / multiple, categorizable, customizable, localizable and searchable item picker (drop-down) component for react native which supports both Android and iOS.">
       <div className={styles.hero}>
-        <header className={styles.header}>
+        <header className={styles.header}>          
           <img src={siteConfig.themeConfig.navbar.logo.src} className={styles.logo} />
           <h1>{siteConfig.title}</h1>
           <p className={styles.tagLine}>{siteConfig.tagline}</p>
