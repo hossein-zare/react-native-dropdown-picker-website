@@ -134,7 +134,7 @@ disabled={true}
 ```
 | Type     | Default  |
 | -------- | -------- |
-| bool     | false    |
+| boolean     | false    |
 
 ### `maxHeight`
 Max height of the drop-down box.
@@ -154,7 +154,7 @@ disableBorderRadius={true}
 ```
 | Type     | Default  |
 | -------- | -------- |
-| bool     | false    |
+| boolean     | false    |
 
 ### `zIndex`
 Specifies the stack order.
