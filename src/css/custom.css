@@ -37,7 +37,7 @@ table {
     background-color: wheat;
     border-radius: 10px;
     padding: 5px 10px;
-    display: inline-flex;
+    display: inline-flex !important;
     align-items: center;
     margin-top: 10px;
 }
