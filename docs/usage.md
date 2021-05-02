@@ -54,7 +54,7 @@ items={items}
 ```
 | Type     | Required |
 | -------- | -------- |
-| ItemType[]   | **true** |
+| [ItemType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[]   | **true** |
 
 ### **`value`**
 State variable that specifies the value of the selected item. It's an array of values for multiple item pickers.
@@ -64,7 +64,7 @@ value={value}
 ```
 | Type     | Required |
 | -------- | -------- |
-| ValueType \| ValueType[] (ValueType = string \| number \| boolean)   | **true** |
+| [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts) \| [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[]   | **true** |
 
 ### **`open`**
 State variable that specifies whether the picker is open.
@@ -199,7 +199,7 @@ setItems={setItems}
 ```
 | Type     | Required |
 | -------- | -------- |
-| (items: ItemType[]) => void | **true** |
+| (items: [ItemType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[]) => void | **true** |
 
 ### **`setValue`**
 State callback that is called when the `value` changes.
@@ -209,7 +209,7 @@ setValue={setValue}
 ```
 | Type     | Required |
 | -------- | -------- |
-| (values: ValueType \| ValueType[]) => void | **true** |
+| (values: [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts) \| [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[]) => void | **true** |
 
 ### `onPress`
 Callback that is called as soon as the user presses the picker.
