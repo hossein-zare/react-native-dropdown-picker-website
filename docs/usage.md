@@ -54,7 +54,7 @@ items={items}
 ```
 | Type     | Required |
 | -------- | -------- |
-| object   | **true** |
+| ItemType[]   | **true** |
 
 ### **`value`**
 State variable that specifies the value of the selected item. It's an array of values for multiple item pickers.
@@ -64,7 +64,7 @@ value={value}
 ```
 | Type     | Required |
 | -------- | -------- |
-| string, number, object   | **true** |
+| ValueType \| ValueType[] (ValueType = string \| number \| boolean)   | **true** |
 
 ### **`open`**
 State variable that specifies whether the picker is open.
@@ -74,7 +74,7 @@ open={open}
 ```
 | Type     | Required |
 | -------- | -------- |
-| bool     | **true** |
+| boolean     | **true** |
 
 ### `containerProps`
 Adds native props for the container.
@@ -189,7 +189,7 @@ setOpen={setOpen}
 ```
 | Type     | Required |
 | -------- | -------- |
-| function | **true** |
+| (open: boolean) => void | **true** |
 
 ### **`setItems`**
 State callback that is called to modify or add new items.
@@ -199,7 +199,7 @@ setItems={setItems}
 ```
 | Type     | Required |
 | -------- | -------- |
-| function | **true** |
+| (items: ItemType[]) => void | **true** |
 
 ### **`setValue`**
 State callback that is called when the `value` changes.
@@ -207,6 +207,9 @@ State callback that is called when the `value` changes.
 ```jsx
 setValue={setValue}
 ```
+| Type     | Required |
+| -------- | -------- |
+| (values: ValueType \| ValueType[]) => void | **true** |
 
 ### `onPress`
 Callback that is called as soon as the user presses the picker.
