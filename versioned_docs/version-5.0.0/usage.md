@@ -23,7 +23,7 @@ function App() {
       open={open}
       value={value}
       items={items}
-      onChangeValue={setValue}
+      setValue={setValue}
       setItems={setItems}
       setOpen={setOpen}
     />
