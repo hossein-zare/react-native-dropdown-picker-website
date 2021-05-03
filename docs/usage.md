@@ -64,7 +64,7 @@ value={value}
 ```
 | Type     | Required |
 | -------- | -------- |
-| [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts) \| [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[] \| undefined   | **true** |
+| [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts) \| [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[] \| null   | **true** |
 
 ### **`open`**
 State variable that specifies whether the picker is open.
