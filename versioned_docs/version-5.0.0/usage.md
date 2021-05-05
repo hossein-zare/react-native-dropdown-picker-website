@@ -209,7 +209,7 @@ setValue={setValue}
 ```
 | Type     | Required |
 | -------- | -------- |
-| (values: [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts) \| [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[]) => void | **true** |
+| (value: [SetStateAction<any[]>](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)) => void | **true** |
 
 ### `onPress`
 Callback that is called as soon as the user presses the picker.
