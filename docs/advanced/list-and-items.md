@@ -50,7 +50,7 @@ Customizes the `renderListItem`.
 ```jsx
 renderListItem={(props) => <Item {...props} />}
 ```
-+ **See: [RenderListItem.js](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/src/RenderListItem.js)**
++ **See: [RenderListItem.js](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/src/components/RenderListItem.js)**
 
 | Type     |
 | -------- |
