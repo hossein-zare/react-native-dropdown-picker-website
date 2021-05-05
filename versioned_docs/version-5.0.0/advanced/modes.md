@@ -47,7 +47,7 @@ renderBadgeItem={(props) => <Badge {...props} />}
 :::note
 You need to move it to an independent component otherwise the items will be re-rendered.
 :::
-+ **See: [RenderBadgeItem.js](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/src/RenderBadgeItem.js)**
++ **See: [RenderBadgeItem.js](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/src/components/RenderBadgeItem.js)**
 
 | Type     |
 | -------- |
