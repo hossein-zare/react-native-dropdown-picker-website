@@ -199,7 +199,7 @@ setItems={setItems}
 ```
 | Type     | Required |
 | -------- | -------- |
-| (items: [ItemType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[]) => void | **true** |
+| (callback: [SetStateAction](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)) => void | **true** |
 
 ### **`setValue`**
 State callback that is called when the `value` changes.
@@ -209,7 +209,7 @@ setValue={setValue}
 ```
 | Type     | Required |
 | -------- | -------- |
-| (value: [SetStateAction<any[]>](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)) => void | **true** |
+| (callback: [SetStateAction](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)) => void | **true** |
 
 ### `onPress`
 Callback that is called as soon as the user presses the picker.
