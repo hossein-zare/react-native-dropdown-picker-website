@@ -3,7 +3,7 @@ module.exports = {
     {
       type: 'category',
       label: 'The Basics',
-      items: ['installation', 'rules', 'usage', 'item-schema'],
+      items: ['changelog', 'installation', 'rules', 'usage', 'item-schema'],
       collapsed: false,
     },
     {

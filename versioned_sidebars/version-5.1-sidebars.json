@@ -1,5 +1,5 @@
 {
-  "version-5.0.0/someSidebar": [
+  "version-5.1/someSidebar": [
     {
       "collapsed": false,
       "type": "category",
@@ -7,19 +7,23 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-5.0.0/installation"
+          "id": "version-5.1/changelog"
         },
         {
           "type": "doc",
-          "id": "version-5.0.0/rules"
+          "id": "version-5.1/installation"
         },
         {
           "type": "doc",
-          "id": "version-5.0.0/usage"
+          "id": "version-5.1/rules"
         },
         {
           "type": "doc",
-          "id": "version-5.0.0/item-schema"
+          "id": "version-5.1/usage"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.1/item-schema"
         }
       ]
     },
@@ -30,47 +34,47 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-5.0.0/advanced/placeholder"
+          "id": "version-5.1/advanced/placeholder"
         },
         {
           "type": "doc",
-          "id": "version-5.0.0/advanced/icons"
+          "id": "version-5.1/advanced/icons"
         },
         {
           "type": "doc",
-          "id": "version-5.0.0/advanced/loading"
+          "id": "version-5.1/advanced/loading"
         },
         {
           "type": "doc",
-          "id": "version-5.0.0/advanced/search"
+          "id": "version-5.1/advanced/search"
         },
         {
           "type": "doc",
-          "id": "version-5.0.0/advanced/category"
+          "id": "version-5.1/advanced/category"
         },
         {
           "type": "doc",
-          "id": "version-5.0.0/advanced/modes"
+          "id": "version-5.1/advanced/modes"
         },
         {
           "type": "doc",
-          "id": "version-5.0.0/advanced/dropdown-box"
+          "id": "version-5.1/advanced/dropdown-box"
         },
         {
           "type": "doc",
-          "id": "version-5.0.0/advanced/list-and-items"
+          "id": "version-5.1/advanced/list-and-items"
         },
         {
           "type": "doc",
-          "id": "version-5.0.0/advanced/list-modes"
+          "id": "version-5.1/advanced/list-modes"
         },
         {
           "type": "doc",
-          "id": "version-5.0.0/advanced/localization"
+          "id": "version-5.1/advanced/localization"
         },
         {
           "type": "doc",
-          "id": "version-5.0.0/advanced/themes"
+          "id": "version-5.1/advanced/themes"
         }
       ]
     },
@@ -81,17 +85,17 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-5.0.0/tutorials/close-other-pickers"
+          "id": "version-5.1/tutorials/close-other-pickers"
         },
         {
           "type": "doc",
-          "id": "version-5.0.0/tutorials/multiple-pickers"
+          "id": "version-5.1/tutorials/multiple-pickers"
         }
       ]
     },
     {
       "type": "doc",
-      "id": "version-5.0.0/donation"
+      "id": "version-5.1/donation"
     }
   ]
 }
