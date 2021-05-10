@@ -3,7 +3,7 @@ id: changelog
 title: Changelog
 ---
 
-+ Added [`onChangeValue`](/react-native-dropdown-picker-website/usage#onchangevalue)
-+ Added an example for [Class Components](/react-native-dropdown-picker-website/usage#class-components).
-+ Changed `\d` to `{count}` in [Localization](/react-native-dropdown-picker-website/advanced/localization).
++ Added [`onChangeValue`](/docs/usage#onchangevalue)
++ Added an example for [Class Components](/docs/usage#class-components).
++ Changed `\d` to `{count}` in [Localization](/docs/advanced/localization).
 + Some bugfixes.

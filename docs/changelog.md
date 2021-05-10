@@ -3,7 +3,7 @@ id: changelog
 title: Changelog
 ---
 
-+ Added [`onChangeValue`](usage#onchangevalue)
-+ Added an example for [Class Components](usage#class-components).
-+ Changed `\d` to `{count}` in [Localization](advanced/localization).
++ Added [`onChangeValue`](/docs/usage#onchangevalue)
++ Added an example for [Class Components](/docs/usage#class-components).
++ Changed `\d` to `{count}` in [Localization](/docs/advanced/localization).
 + Some bugfixes.
