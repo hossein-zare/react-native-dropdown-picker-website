@@ -11,11 +11,11 @@ You may want to disable an item, The item will be unselectable.
 ```
 
 ## Props
-### `key`
+### `itemKey`
 Specifies which item key should be used as a key.
 
 ```jsx
-key="value"
+itemKey="value"
 ```
 | Type     | Default  |
 | -------- | -------- |
