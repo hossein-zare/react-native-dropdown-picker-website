@@ -43,7 +43,7 @@ addCustomItem={true}
 ```
 | Type     | Default  | Requirements |
 | -------- | -------- | ------------ |
-| bool     | false    | [`setItems`](/usage#setitems)   |
+| bool     | false    | [`setItems`](/docs/usage#setitems)   |
 
 ## Placeholder Text
 Changes the placeholder text of the text input. Both of the following properties are available.
