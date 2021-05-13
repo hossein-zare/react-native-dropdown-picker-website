@@ -244,15 +244,15 @@ setOpen={setOpen}
 | -------- | -------- |
 | (open: boolean) => void | **true** |
 
-### **`setItems`**
+### `setItems`
 State callback that is called to modify or add new items.
 
 ```jsx
 setItems={setItems}
 ```
-| Type     | Required |
-| -------- | -------- |
-| (callback: [SetStateAction](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[]) => void | **true** |
+| Type     |
+| -------- |
+| (callback: [SetStateAction](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[]) => void |
 
 ### **`setValue`**
 State callback that is called when the `value` changes.
