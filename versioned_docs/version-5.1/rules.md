@@ -6,7 +6,7 @@ title: Rules
 ### Only one at a time
 In previous versions, users complained about overlapping drop-down menus.  
 If there are several components in a row, it may cause them to overlap. To prevent this from happening, only one package should be open at a time.  
-+ **See: [Close other pickers](tutorials/close-other-pickers)**
++ **See: [Close other pickers](https://hossein-zare.github.io/react-native-dropdown-picker-website/docs/tutorials/close-other-pickers)**
 
 ### Keep item values unique
 The values of your items are considered unique, if not so, only the first item with the value will be selected not the one you select.
