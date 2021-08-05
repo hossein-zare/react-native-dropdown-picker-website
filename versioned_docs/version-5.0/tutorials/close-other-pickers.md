@@ -12,7 +12,7 @@ function App() {
   const [cityOpen, setCityOpen] = useState(false);
 
   const onCountryOpen = useCallback(() => {
-    setCityCountry(false);
+    setCityOpen(false);
   }, []);
 
   const onCityOpen = useCallback(() => {
