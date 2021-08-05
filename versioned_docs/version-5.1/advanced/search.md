@@ -22,7 +22,7 @@ searchTextInputProps={{
 ```
 | Type     |
 | -------- |
-| [ScrollViewProps](https://reactnative.dev/docs/scrollview#props)   |
+| [TextInputProps](https://reactnative.dev/docs/textinput#props)   |
 
 ### `disableLocalSearch`
 Disables search between local items. This comes in handy for remote search.
