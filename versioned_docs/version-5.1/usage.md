@@ -209,6 +209,16 @@ disableBorderRadius={true}
 | -------- | -------- |
 | boolean     | false    |
 
+### `stickyHeader`
+Makes categories stick to the top of the screen until the next one pushes it off.
+
+```jsx
+stickyHeader={true}
+```
+| Type     |
+| -------- |
+| boolean  |
+
 ### `zIndex`
 Specifies the stack order.
 

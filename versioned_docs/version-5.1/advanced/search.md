@@ -48,9 +48,9 @@ addCustomItem={true}
 ## Placeholder Text
 Changes the placeholder text of the text input. Both of the following properties are available.
 
-### `searchablePlaceholder`
+### `searchPlaceholder`
 ```jsx
-searchablePlaceholder="Search..."
+searchPlaceholder="Search..."
 ```
 
 ### `translation`
