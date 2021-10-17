@@ -33,6 +33,6 @@ module.exports = {
       ],
       collapsed: true,
     },
-    'donation'
+    // 'donation'
   ]
 };
