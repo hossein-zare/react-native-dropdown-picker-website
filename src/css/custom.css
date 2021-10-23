@@ -31,7 +31,7 @@ table {
     text-align: left;
 }
   
-.donate-bitcoin-link {
+/* .donate-bitcoin-link {
     color: black !important;
     text-decoration: none;
     background-color: wheat;
@@ -56,4 +56,4 @@ table {
 
 .donate-bitcoin-link img, .menu > .menu__list > li:last-child a img {
     margin-right: 10px
-}
+} */

@@ -85,7 +85,9 @@ listItemContainer={{
 
 ### `listItemLabelStyle`
 ```jsx
-color="#000"
+listItemLabelStyle={{
+  color: "#000"
+}}
 ```
 
 ### `selectedItemContainerStyle`
