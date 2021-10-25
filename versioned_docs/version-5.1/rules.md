@@ -5,7 +5,7 @@ title: Rules
 
 ### Only one at a time
 In previous versions, users complained about overlapping drop-down menus.  
-If there are several components in a row, it may cause them to overlap. To prevent this from happening, only one package should be open at a time.  
+If there are several components in a row, it may cause them to overlap. To prevent this from happening, only one picker should be open at a time.  
 + **See: [Close other pickers](tutorials/close-other-pickers)**
 
 ### Keep item values unique
