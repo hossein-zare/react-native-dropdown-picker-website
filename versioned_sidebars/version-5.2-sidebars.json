@@ -1,0 +1,97 @@
+{
+  "version-5.2/someSidebar": [
+    {
+      "collapsed": false,
+      "type": "category",
+      "label": "The Basics",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5.2/changelog"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/installation"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/rules"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/usage"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/item-schema"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Advanced",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5.2/advanced/placeholder"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/advanced/icons"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/advanced/loading"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/advanced/search"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/advanced/category"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/advanced/modes"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/advanced/dropdown-box"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/advanced/list-and-items"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/advanced/list-modes"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/advanced/localization"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/advanced/themes"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Tutorials",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-5.2/tutorials/close-other-pickers"
+        },
+        {
+          "type": "doc",
+          "id": "version-5.2/tutorials/multiple-pickers"
+        }
+      ]
+    }
+  ]
+}
