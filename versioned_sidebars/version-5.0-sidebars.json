@@ -88,6 +88,11 @@
           "id": "version-5.0/tutorials/multiple-pickers"
         }
       ]
+    },
+    {
+      "type": "doc",
+      "id": "donation",
+      "label": "✨ Donation"
     }
   ]
 }

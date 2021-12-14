@@ -47,7 +47,7 @@ itemKey="value"
 | string   | `value`  |
 
 ### `closeAfterSelecting`
-Closes the drop-down menu after selecting an item.  
+Closes the picker after selecting an item.  
 
 ```jsx
 closeAfterSelecting={true}
@@ -55,6 +55,17 @@ closeAfterSelecting={true}
 :::note
 This only works with **single** item pickers.
 :::
+| Type     | Default  |
+| -------- | -------- |
+| bool     | false    |
+
+### `closeOnBackPressed`
+Closes the picker after pressing the back button.
+
+```jsx
+closeOnBackPressed={true}
+```
+
 | Type     | Default  |
 | -------- | -------- |
 | bool     | false    |

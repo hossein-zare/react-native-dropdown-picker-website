@@ -31,10 +31,10 @@ table {
     text-align: left;
 }
   
-/* .donate-bitcoin-link {
+.donate-link {
     color: black !important;
     text-decoration: none;
-    background-color: wheat;
+    background-color: #f9b372;
     border-radius: 10px;
     padding: 5px 10px;
     display: inline-flex !important;
@@ -42,7 +42,7 @@ table {
     margin-top: 10px;
 }
 
-.doc-page .menu > .menu__list > li:last-child a {
+.theme-doc-sidebar-menu > li:last-child a {
     color: black !important;
     text-decoration: none;
     background-color: wheat;
@@ -56,4 +56,42 @@ table {
 
 .donate-bitcoin-link img, .menu > .menu__list > li:last-child a img {
     margin-right: 10px
-} */
+}
+
+.aa-DetachedSearchButton {
+    display: flex;
+    align-items: center;
+    border-radius: 30px !important;
+    height: 40px !important;
+    font-size: 13px !important;
+}
+
+.aa-DetachedSearchButtonPlaceholder {
+    margin-top: -1px;
+    margin-right: 13px;
+}
+
+.aa-Form {
+    border-radius: 25px !important;
+    overflow: hidden;
+}
+
+body[data-theme="dark"] .aa-DetachedSearchButton {
+    background-color: #292d3e !important;
+}
+
+body[data-theme="dark"] input {
+    background-color: #292d3e !important;
+}
+
+body[data-theme="dark"] button.aa-SubmitButton {
+    background-color: #292d3e !important;
+}
+
+body[data-theme="dark"] .dropdown__menu a {
+    color: #fff !important;
+}
+
+.navbar__toggle svg {
+    color: #fff !important;
+}

@@ -3,11 +3,8 @@ id: changelog
 title: Changelog
 ---
 
-+ feat: add [`testID`](advanced/list-and-items#test-id) to ItemType and set on item TouchableOpacity [#409](https://github.com/hossein-zare/react-native-dropdown-picker/pull/409) ([@jamie-phlo](https://github.com/jamie-phlo))
-+ Added [`autoScroll`](usage#autoscroll) automatically scrolls to the first selected item.
-+ Added [`labelStyle`](advanced/list-and-items#item-specific-styles) to the [Item Schema](item-schema).
-+ Added [`containerStyle`](advanced/list-and-items#item-specific-styles) to the [Item Schema](item-schema).
-+ Added [`props`](usage#props)
-+ Added [`itemProps`](usage#itemprops)
-+ Added [`modalTitle`](advanced/list-modes#modaltitle)
-+ Added [`modalTitleStyle`](advanced/list-modes#modaltitlestyle)
++ Added [`testID`](http://localhost:3000/react-native-dropdown-picker-website/docs/next/usage#testid) prop. [#454](https://github.com/hossein-zare/react-native-dropdown-picker/pull/454) ([@salopeklm](https://github.com/salopeklm))
++ Added Russian translation. [@457](https://github.com/hossein-zare/react-native-dropdown-picker/pull/457) ([@Blizzardnya](https://github.com/Blizzardnya))
++ Added Spanish translation. [@461](https://github.com/hossein-zare/react-native-dropdown-picker/pull/461) ([@Techie-Pi](https://github.com/Techie-Pi))
++ Added [`closeOnBackPressed`](http://localhost:3000/react-native-dropdown-picker-website/docs/next/advanced/list-and-items#closeonbackpressed) prop.
++ Added [`onSelectItem`](http://localhost:3000/react-native-dropdown-picker-website/docs/next/usage#onselectitem) prop.

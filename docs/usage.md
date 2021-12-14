@@ -249,6 +249,16 @@ autoScroll={true}
 | -------- |
 | boolean  |
 
+### `testID`
+Used to locate the picker in end-to-end tests.
+
+```jsx
+testID="picker-testid"
+```
+| Type     |
+| -------- |
+| string   |
+
 ### `zIndex`
 Specifies the stack order.
 
@@ -317,6 +327,18 @@ onChangeValue={(value) => {
 | Type     |
 | -------- |
 | (value: [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)) => void \| (value: [ValueType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[]) => void \| null |
+
+### `onSelectItem`
+Callback that returns the selected item / items.
+
+```jsx
+onSelectItem={(item) => {
+  console.log(item);
+}}
+```
+| Type     |
+| -------- |
+| (item: [ItemType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)) => void \| (items: [ItemType](https://github.com/hossein-zare/react-native-dropdown-picker/blob/5.x/index.d.ts)[]) => void \| null |
 
 ### `onPress`
 Callback that is called as soon as the user presses the picker.

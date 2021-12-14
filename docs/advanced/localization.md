@@ -9,6 +9,8 @@ You can change the language of your item picker.
 + `AR` Arabic
 + `FA` Farsi
 + `TR` Turkish
++ `RU` Russian
++ `ES` Spanish
 
 ```jsx
 language="EN"
