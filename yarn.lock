@@ -16,7 +16,7 @@
   dependencies:
     "@algolia/autocomplete-shared" "1.5.1"
 
-"@algolia/autocomplete-js@^1.2.2":
+"@algolia/autocomplete-js@^1.5.1":
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/@algolia/autocomplete-js/-/autocomplete-js-1.5.1.tgz#b86eb20b99b94feedf0e5f43d8b65c4d9287322b"
   integrity sha512-lRYNkHtuUI+SVnSiiryRThRN/3DpwW4KrM5j6oIFbsfsW8nwj5rsd+6x9Z4+MPwzC/8iM/TJEUoalwQBR+ZScA==
@@ -50,7 +50,7 @@
   resolved "https://registry.yarnpkg.com/@algolia/autocomplete-shared/-/autocomplete-shared-1.5.1.tgz#8f71c9b5c8f590f6c900984a7288452f9fbba290"
   integrity sha512-sQjSehycUho+DXz/XRCFyfkvS5ks/t9KXSpeI3TrneaWbY8gxSfKmiabyF8UG5rRYFL2k/mLpFCbYmC0WA70mg==
 
-"@algolia/autocomplete-theme-classic@^1.2.2":
+"@algolia/autocomplete-theme-classic@^1.5.1":
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/@algolia/autocomplete-theme-classic/-/autocomplete-theme-classic-1.5.1.tgz#8c237de496de4dc78d7fd6d74bed25ef16fa4f35"
   integrity sha512-0z9wDAFXT+WA2dWNEAj9KcDNcBL+sitnlkKJJeyVIAOhQZjzvY6Qt5VtM1StqPL9nEUBm3Pm0uftWlPqZFy2oQ==
@@ -1203,13 +1203,13 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-"@cmfcmf/docusaurus-search-local@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@cmfcmf/docusaurus-search-local/-/docusaurus-search-local-0.9.0.tgz#a81d6cced895c55ffb95bbf903bfa21d2f71e00e"
-  integrity sha512-EvvwZfbp7kwFwdGEqNq834IWvbZa025g5MgQFZd9FGZmW7KgghdV3v1GiKobeTBg5OlzdAI4/6cN0s7NTHRTTg==
+"@cmfcmf/docusaurus-search-local@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@cmfcmf/docusaurus-search-local/-/docusaurus-search-local-0.9.1.tgz#8bdad2d8bfda137ae043b8534aaa8b308979afc6"
+  integrity sha512-WDy0HyiO92QtiA3J8jjf3VCmqmBs6LGQvqw6CI1sOZx1CaO3Q3Os5YtCp0Ee1bGtDyrGpVQQnT8sPJs7KaRMXw==
   dependencies:
-    "@algolia/autocomplete-js" "^1.2.2"
-    "@algolia/autocomplete-theme-classic" "^1.2.2"
+    "@algolia/autocomplete-js" "^1.5.1"
+    "@algolia/autocomplete-theme-classic" "^1.5.1"
     "@algolia/client-search" "^4.10.3"
     algoliasearch "^4.10.3"
     cheerio "^1.0.0-rc.9"
