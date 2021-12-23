@@ -92,11 +92,6 @@
           "id": "version-5.2/tutorials/multiple-pickers"
         }
       ]
-    },
-    {
-      "type": "doc",
-      "id": "donation",
-      "label": "✨ Donation"
     }
   ]
 }

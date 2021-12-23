@@ -33,10 +33,10 @@ module.exports = {
       ],
       collapsed: true,
     },
-    {
-      type: 'doc',
-      label: '✨ Donation',
-      id: 'donation'
-    }
+    // {
+    //   type: 'doc',
+    //   label: '✨ Donation',
+    //   id: 'donation'
+    // }
   ]
 };

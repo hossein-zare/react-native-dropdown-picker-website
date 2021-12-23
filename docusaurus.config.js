@@ -82,9 +82,9 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/hossein-zare/react-native-dropdown-picker',
               },
-              {
-                html: '<a style="color: #ffc107;" href="https://www.buymeacoffee.com/hossein_zare">Donate (Buy me a coffee)</a>',
-              },
+              // {
+              //   html: '<a style="color: #ffc107;" href="https://www.buymeacoffee.com/hossein_zare">Donate (Buy me a coffee)</a>',
+              // },
             ],
           },
         ],
