@@ -31,7 +31,7 @@ table {
     text-align: left;
 }
   
-.donate-link {
+/* .donate-link {
     color: black !important;
     text-decoration: none;
     background-color: #f9b372;
@@ -52,11 +52,11 @@ table {
     padding-bottom: 10px;
     align-items: center;
     margin-top: 10px;
-}
+} */
 
-.donate-bitcoin-link img, .menu > .menu__list > li:last-child a img {
+/* .donate-bitcoin-link img, .menu > .menu__list > li:last-child a img {
     margin-right: 10px
-}
+} */
 
 .aa-DetachedSearchButton {
     display: flex;
