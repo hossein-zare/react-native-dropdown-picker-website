@@ -115,7 +115,7 @@ ListEmptyComponent={({
 ## Styling
 ### `listItemContainerStyle`
 ```jsx
-listItemContainer={{
+listItemContainerStyle={{
   height: 40
 }}
 ```
