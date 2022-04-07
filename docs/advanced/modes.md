@@ -47,7 +47,7 @@ badgeProps={{
 ```
 
 ### `extendableBadgeContainer`
-If true, it allows the badges to expand in multiple rows.
+Allows the badges to expand in multiple rows.
 
 | Type     | Default  |
 | -------- | -------- |
