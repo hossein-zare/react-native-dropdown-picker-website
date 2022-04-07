@@ -28,6 +28,16 @@ bottomOffset={100}
 | -------- | -------- |
 | number   | 0        |
 
+## Callbacks
+### `onDirectionChanged`
+Callback that is called when the direction changes.
+
+```jsx
+onDirectionChanged={(direction) => {
+  console.log(direction); // top or bottom
+}}
+```
+
 ## Styling
 ### `dropDownContainerStyle`
 ```jsx
