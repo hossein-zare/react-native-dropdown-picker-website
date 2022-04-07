@@ -26,7 +26,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://hossein-zare.github.io/react-native-dropdown-picker-website',
-          lastVersion: '5.3'
+          lastVersion: '5.4'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
