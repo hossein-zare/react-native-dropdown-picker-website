@@ -35,6 +35,16 @@ showTickIcon={true}
 | -------- | -------- |
 | bool     | true     |
 
+### `hideSelectedItemIcon`
+Hides the icon of the selected item.
+
+```jsx
+hideSelectedItemIcon={true}
+```
+| Type     | Default  |
+| -------- | -------- |
+| bool     | false     |
+
 ### `ArrowUpIconComponent`
 Changes the arrow-up icon.
 
