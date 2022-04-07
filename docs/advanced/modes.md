@@ -37,6 +37,15 @@ showBadgeDot={true}
 | -------- | -------- |
 | bool     | true     |
 
+### `badgeProps`
+Adds native props for the badge container TouchableOpacity.
+
+```jsx
+badgeProps={{
+  activeOpacity: 0.5
+}}
+```
+
 ### `renderBadgeItem`
 Renders the selected items.
 
