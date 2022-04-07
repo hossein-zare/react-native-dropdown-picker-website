@@ -83,12 +83,20 @@ const config = {
                 href: 'https://github.com/hossein-zare/react-native-dropdown-picker',
               },
               // {
-              //   html: '<a style="color: #ffc107;" href="https://www.buymeacoffee.com/hossein_zare">Donate (Buy me a coffee)</a>',
+              //   html: '',
               // },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} React Native Dropdown Picker.`,
+        copyright: `
+          <div>
+            <div>Copyright © ${new Date().getFullYear()} React Native Dropdown Picker.</div>
+            <div style="display: flex; align-items: center; justify-content: center; margin-top: 5px;">
+              <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/313/flag-ukraine_1f1fa-1f1e6.png" width="20" height="20">
+              <div style="color: #fbca00; margin-left: 6px;">You are in our <span style="color: #90c8ff;">thoughts!</span></div>
+            </div>
+          </div>
+        `,
       },
       prism: {
         theme: lightCodeTheme,
