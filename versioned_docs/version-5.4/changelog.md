@@ -13,5 +13,5 @@ title: Changelog
 
 ## Improvements and bugfixes
 + add renderListItem onPress params. [#513](https://github.com/hossein-zare/react-native-dropdown-picker/pull/513) ([@mangjuned](https://github.com/mangjuned))
-+ fix: set dropdown as generic. [#517](https://github.com/hossein-zare/react-native-dropdown-picker/pull/517) ([@mlecoq](https://github.com/mlecoq))
++ fix: set dropdown as generic. [#517](https://github.com/hossein-zare/react-native-dropdown-picker/pull/517) ([@mlecoq](https://github.com/mlecoq) and [@mikehardy](https://github.com/mikehardy))
 + Updated setState types. [#533](https://github.com/hossein-zare/react-native-dropdown-picker/pull/533) ([@JDMathew](https://github.com/JDMathew))
