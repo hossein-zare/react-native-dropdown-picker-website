@@ -62,9 +62,9 @@ DropDownPicker.addTranslation("IT", {
   ...
 
   SELECTED_ITEMS_COUNT_TEXT: {
-    1: 'Un élément a été sélectionné',
+    1: 'Un elemento è stato selezionato',
     // Feel free to add more
-    n: '{count} éléments ont été sélectionnés'
+    n: '{count} elementi sono stati selezionati'
   },
 });
 ```
@@ -72,7 +72,7 @@ DropDownPicker.addTranslation("IT", {
 ### Modify an existing translation
 ```jsx
 DropDownPicker.modifyTranslation("FR", {
-  PLACEHOLDER: "Sélectionnez un élément..."
+  PLACEHOLDER: "Sélectionnez un élément"
 });
 ```
 
