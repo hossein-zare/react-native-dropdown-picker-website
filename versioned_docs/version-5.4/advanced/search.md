@@ -24,6 +24,17 @@ searchTextInputProps={{
 | -------- |
 | [TextInputProps](https://reactnative.dev/docs/textinput#props)   |
 
+### `searchWithRegionalAccents`
+Allows searching without typing local accents.
+
+```jsx
+searchWithRegionalAccents={true}
+```
+
+| Type     | Default  |
+| -------- | -------- |
+| bool     | false    |
+
 ### `disableLocalSearch`
 Disables search between local items. This comes in handy for remote search.
 

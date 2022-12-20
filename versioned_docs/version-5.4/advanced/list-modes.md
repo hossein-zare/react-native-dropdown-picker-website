@@ -69,6 +69,20 @@ Sets modal title.
 modalTitle="Select an item"
 ```
 
+### `modalAnimationType`
+This prop controls how the modal animates.
+
+Possible values:
++ `slide` slides in from the bottom,
++ `fade` fades into view,
++ `none` appears without an animation.
+```jsx
+modalAnimationType="slide"
+```
+| Type     | Default    |
+| -------- | ---------- |
+| enum(`'none'`, `'slide'`, `'fade'`)   | `none` |
+
 ## Styling
 ### `modalContentContainerStyle`
 ```jsx

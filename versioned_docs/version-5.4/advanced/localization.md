@@ -13,6 +13,8 @@ You can change the language of your item picker.
 + `ES` Spanish
 + `ID` Indonesian
 + `IT` Italian
++ `PT` Brazilian Portuguese
++ `FR` French
 
 ```jsx
 language="EN"
@@ -46,7 +48,7 @@ DropDownPicker.addTranslation("FR", {
   PLACEHOLDER: "Sélectionnez un élément",
   SEARCH_PLACEHOLDER: "Tapez quelque chose...",
   SELECTED_ITEMS_COUNT_TEXT: "{count} éléments ont été sélectionnés", // See below for advanced options
-  NOTHING_TO_SHOW: "Il n'y a rien à montrer!"
+  NOTHING_TO_SHOW: "Il n\'y a rien à montrer!"
 });
 
 // Set as default
@@ -60,9 +62,9 @@ DropDownPicker.addTranslation("IT", {
   ...
 
   SELECTED_ITEMS_COUNT_TEXT: {
-      1: 'Un elemento è stato selezionato',
-      // Feel free to add more
-      n: '{count} elementi sono stati selezionati'
+    1: 'Un élément a été sélectionné',
+    // Feel free to add more
+    n: '{count} éléments ont été sélectionnés'
   },
 });
 ```
